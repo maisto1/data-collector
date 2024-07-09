@@ -99,7 +99,7 @@ function screenSize(){
 
 function changeStatus(e) {
     let iconSrc = 'static/checked.png';
-    text = "Thanks for your helping!"
+    text = "Thanks for your help!"
 
     if (e) {
         iconSrc = 'static/remove.png';
