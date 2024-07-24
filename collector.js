@@ -90,7 +90,7 @@ function clientSize(){
     sAW = screen.availWidth
     sAH = screen.availHeight
 
-    return scrR + "_" + scrL + "_" + width + "_" + height + "_" + sW + "_" + sAW + "_" + sAH
+    return scrR + "_" + scrL + "_" + width + "_" + height + "_" + sW + "_" + sH + "_"+ sAW + "_" + sAH
 }
 
 function screenSize(){
