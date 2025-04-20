@@ -75,14 +75,6 @@ The script includes a simple UI feedback system that:
 
 The script includes fallbacks and optional chaining to ensure compatibility with modern browsers, handling cases where certain APIs might not be available.
 
-## Privacy Considerations
-
-When implementing this script, consider:
-- Informing users about data collection
-- Complying with relevant privacy regulations (GDPR, CCPA, etc.)
-- Storing and processing the collected data securely
-- Providing opt-out mechanisms where required by law
-
 ## Error Handling
 
 The script includes basic error handling for server responses:
