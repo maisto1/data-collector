@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Dati da inviare al server
     const data = {
         "ua": navigator?.userAgent || '',
         "plugins": plugins(),
@@ -41,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => {
         console.error('Error:', error);
-        // Gestione degli errori qui
     });
 });
 
