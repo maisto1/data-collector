@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "navigatorInfo": navigatorInfo(),
     };
 
-    fetch('https://serverdata-bphz.onrender.com/collect-data', {
+    fetch('SERVER_URL', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
